@@ -21,12 +21,7 @@ favicon-url: assets/images/favicon.ico
 perfil: assets/images/perfil.jfif
 
 name: Rodrigo dos Santos Felix
-about: |
-  Experienced Junior Python Developer with over 1 year of hands-on experience crafting APIs and conducting web scraping using Scrapy framework and Requests library within the dynamic framework of an agile team. Proficient in adhering to best development practices, including version control and rigorous code reviews. My commitment to continuous improvement extends beyond Python development, as I am currently aspiring to delve into Java, Go and furthering my skills in DevOps methodologies, with a particular focus on enhancing back-end processes. This journey reflects my passion for embracing new technologies and innovative approaches, with the ultimate goal of enhancing code quality and contributing to team excellence.
   
-  
-  Beyond the realm of technology, my interests extend to the rich Japanese culture. Enthusiastic about language and cultural nuances, I am keen on immersing myself in the unique aspects that Japan offers. This multifaceted approach to both professional and cultural development underscores my commitment to lifelong learning and a holistic understanding of the ever-evolving tech landscape and diverse global perspectives.
-
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 #heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 

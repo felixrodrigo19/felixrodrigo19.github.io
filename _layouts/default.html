@@ -2,38 +2,41 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 {% include head.html %}
 
-<body>
-  {% include navbar.html %}
-  {% include about.html %}
-  {% include project-card.html %}
-  {% include footer.html %}
+<body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <span class="image avatar48"><img src="{{site.perfil}}" alt="{{site.name}}" /></span>
+                <h1 id="title">{{site.title}}</h1>
+                <p>Backend Engineer | Python Developer</p>
+            </div>
+            {% include navbar.html %}
+        </div>
+        <div class="bottom">
+            {% include social.html %}
+        </div>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+        {% include intro.html %}
+        {% include portfolio.html %}
+        {% include about.html %}     
+    </div>
+
+    {% include footer.html %}
+
 </body>
-<script>
-  var navItems = document.getElementsByClassName('navbar-item');
-  var heroes = document.getElementsByClassName('hero');
-  const viewOffset = 200;
-
-  window.addEventListener("scroll", function (event) {
-    var scroll = this.scrollY;
-    var position = window.pageYOffset;
-
-    for (var i = 0; i < navItems.length; i++) {
-      navItems[i].classList.remove('is-active');
-    }
-
-    for (var i = 0; i < heroes.length; i++) {
-      var sectionTop = heroes[i].offsetTop - viewOffset;
-      var sectionBottom = heroes[i].offsetTop + heroes[i].offsetHeight - viewOffset;
-
-      if (scroll >= sectionTop && scroll < sectionBottom) {
-        navItems[i + 1].classList.add('is-active');
-      }
-    }
-  });
-</script>
 
 </html>

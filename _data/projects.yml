@@ -1,4 +1,3 @@
 - name: ExtinguiTrack
-  image: https://cdn.pixabay.com/photo/2015/01/08/18/27/startup-593341_960_720.jpg
   link: https://github.com/felixrodrigo19/ExtinguiTrack
   description: ExtinguiTrack is a back-end web-based system for efficiently managing fire extinguishers within your organization. Whether you need to track their locations, inspection dates, or other critical information, ExtinguiTrack provides a solution to streamline your fire safety management.
