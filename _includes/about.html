@@ -1,32 +1,22 @@
-<section class="hero is-fullheight has-text-centered has-background-white-ter" id="about">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-one-fifth-desktop is-one-fifth-tablet is-one-fifth-fullhd">
-                    <figure class="image">
-                        <img class="is-rounded" src="{{site.perfil}}" alt="{{site.name}}">
-                    </figure>
-                </div>
-                <div
-                    class="column has-text-left-desktop has-text-left-tablet has-text-left-fullhd has-text-left-widescreen">
-                    <p>{{site.about}}</p>
-                    <br>
-                    <div class="column is-full is-size-5">
-                    {% unless site.email == %}
-                    <a href="mailto:{{site.email}}" class="has-text-black" target="_blank"><i
-                            class="fas fa-envelope"></i></a>
-                    {% endunless %}
-                    {% unless site.linkedin_username == %}
-                    <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank"
-                        class="has-text-black"><i class="fab fa-linkedin"></i></a>
-                    {% endunless %}
-                    {% unless site.github_username == %}
-                    <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i
-                            class="fab fa-github"></i></a>
-                    {% endunless %}
-                </div>
-                </div>
-                
-            </div>
-        </div>
+<section id="about" class="three">
+    <div class="container">
+        <header>
+            <h2>About Me</h2>
+        </header>
+        <p>Experienced Junior Python Developer with over 1 year of hands-on experience crafting APIs and conducting web
+            scraping using Scrapy framework and Requests library within the dynamic framework of an agile team.
+            Proficient in adhering to best development practices, including version control and rigorous code reviews.
+            My commitment to continuous improvement extends beyond Python development, as I am currently aspiring to
+            delve into Java, Go and furthering my skills in DevOps methodologies, with a particular focus on enhancing
+            back-end processes. This journey reflects my passion for embracing new technologies and innovative
+            approaches, with the ultimate goal of enhancing code quality and contributing to team excellence.</p>
+
+        <p>
+            Beyond the realm of technology, my interests extend to the rich Japanese culture. Enthusiastic about
+            language and cultural nuances, I am keen on immersing myself in the unique aspects that Japan offers. This
+            multifaceted approach to both professional and cultural development underscores my commitment to lifelong
+            learning and a holistic understanding of the ever-evolving tech landscape and diverse global perspectives.
+        </p>
+
+    </div>
 </section>

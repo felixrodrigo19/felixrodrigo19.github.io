@@ -1,0 +1,29 @@
+<section id="portfolio" class="two">
+    <div class="container">
+
+        <header>
+            <h2>Portfolio</h2>
+        </header>
+
+        <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+            egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+            Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+            fusce hendrerit lacus ridiculus.</p>
+
+        <div class="row">
+            {% for project in site.data.projects %}
+            <div class="col-4 col-12-mobile">
+                <article class="item">
+                    <a href="{{project.link}}" class="image fit" target="_blank">
+                        <header>
+                            <h3>{{ project.name}}</h3>
+                            <p>{{project.description | truncate: 300}}</p>
+                        </header>
+                    </a>
+                </article>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
