@@ -1,3 +1,6 @@
 - name: ExtinguiTrack
   link: https://github.com/felixrodrigo19/ExtinguiTrack
   description: ExtinguiTrack is a back-end web-based system for efficiently managing fire extinguishers within your organization. Whether you need to track their locations, inspection dates, or other critical information, ExtinguiTrack provides a solution to streamline your fire safety management.
+- name: Novel-API
+  link: https://github.com/felixrodrigo19/novel-api
+  description: The Novel Backend API is designed to facilitate the management and distribution of novel data, such as title, author, genre, etc. It provides endpoints for CRUD (Create, Read, Update, Delete) operations on novels, authors and genres.
