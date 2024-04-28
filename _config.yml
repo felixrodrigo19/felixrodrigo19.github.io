@@ -9,10 +9,10 @@ baseurl: ""
 title: Rodrigo's Portfolio
 # Description of the Site
 description: |
-  Junior Python Developer specializing in API consumption and web scraping. 
-  Experienced in Docker, Python and AWS services. 
-  Enthusiastic about automating workflows with GitHub Actions and passionate about continuous learning, 
-  including expanding skills in Golang.
+  Experienced Python developer adept at building APIs and conducting web scraping using Scrapy framework and 
+  Requests libraries within an agile team environment. Actively involved in the development of new products 
+  leveraging Spring Boot and several AWS services. Passionate about learning new technologies and methodologies 
+  to enhance code quality and foster collaborative team performance.
 # URL of Image of the Site
 # Keywords of the Site
 site-keywords: Python, Developer, Backend Engineer
